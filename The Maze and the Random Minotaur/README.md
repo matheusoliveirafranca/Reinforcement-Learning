@@ -10,15 +10,31 @@ Note 1: Neither you nor the minotaur can walk diagonally.
 Note 2: The minotaur catches you, if and only if, you are located at the same position, at the
 same time.
 
-![Figure 1: The minotaur’s maze.](../images/minotaur%27s%20maze.png)
+<p align="center">
+  <img src="../images/minotaur%27s%20maze.png" width="50%" height="50%"/>
+</p>
+<p align="center">
+  Figure 1: The minotaur’s maze.
+</p>
+
+<!-- <center><img src="../images/minotaur%27s%20maze.png" width="300" height="300" alt="Figure 1: The minotaur’s maze."></center>
+<center>Figure 1: The minotaur’s maze.</center> -->
+
 
 (a) Formulate the problem as an MDP.
+
 (b) Solve the problem, and illustrate an optimal policy for $T = 20^2$ Plot the maximal probability
 of exiting the maze as a function of T. Is there a difference if the minotaur is allowed to
 stand still? If so, why?
+
 (c) Assume now that your life is geometrically distributed with mean 30. Modify the problem
 so as to derive a policy minimizing the expected time to exit the maze. Motivate your new
 problem formulation (model). Estimate the probability of getting out alive using this policy
 by simulating 10 000 games.
 
-![Best policy example](../images/minotaur%27s_maze_policy_example.gif)
+<p align="center">
+  <img src="../images/minotaur%27s_maze_policy_example.gif" width="50%" height="50%"/>
+</p>
+<p align="center">
+  Best policy example.
+</p>
