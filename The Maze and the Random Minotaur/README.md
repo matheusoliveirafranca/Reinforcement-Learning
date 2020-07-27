@@ -10,7 +10,7 @@ Note 1: Neither you nor the minotaur can walk diagonally.
 Note 2: The minotaur catches you, if and only if, you are located at the same position, at the
 same time.
 
-![Figure 1: The minotaur’s maze.](../minotaur%27s%20maze.png)
+![Figure 1: The minotaur’s maze.](../images/minotaur%27s%20maze.png)
 
 (a) Formulate the problem as an MDP.
 (b) Solve the problem, and illustrate an optimal policy for $T = 20^2$ Plot the maximal probability
@@ -21,4 +21,4 @@ so as to derive a policy minimizing the expected time to exit the maze. Motivate
 problem formulation (model). Estimate the probability of getting out alive using this policy
 by simulating 10 000 games.
 
-![Best policy example](minotaur%27s_maze_policy_example.gif)
+![Best policy example](../images/minotaur%27s_maze_policy_example.gif)
